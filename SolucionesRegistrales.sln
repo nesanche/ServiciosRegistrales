@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucionesRegistrales", "ServiciosRegistrales\SolucionesRegistrales.csproj", "{ADE69A40-BCF5-48E3-A5D1-0B44FC7788A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntity", "BusinessEntity\BusinessEntity.csproj", "{2F06C55C-059D-4D26-9FAA-1352E3AB89AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6D272A91-C191-445B-A56E-0EE931E7EDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{8FB4FBD5-D657-4847-B2B1-FB2A01400A1C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRegistrales", "SetupRegistrales\SetupRegistrales.vdproj", "{10B349B7-ED63-47F4-B81D-9B98B75A350D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sancheznicolas93.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = BusinessEntity\\BusinessEntity.csproj
+		SccProjectName0 = BusinessEntity
+		SccLocalPath0 = BusinessEntity
+		SccProjectUniqueName1 = BusinessLayer\\BusinessLayer.csproj
+		SccProjectName1 = BusinessLayer
+		SccLocalPath1 = BusinessLayer
+		SccProjectUniqueName2 = DataLayer\\DataLayer.csproj
+		SccProjectName2 = DataLayer
+		SccLocalPath2 = DataLayer
+		SccProjectUniqueName3 = SetupRegistrales\\SetupRegistrales.vdproj
+		SccProjectName3 = SetupRegistrales
+		SccLocalPath3 = SetupRegistrales
+		SccProjectUniqueName4 = ServiciosRegistrales\\SolucionesRegistrales.csproj
+		SccProjectName4 = ServiciosRegistrales
+		SccLocalPath4 = ServiciosRegistrales
+		SccLocalPath5 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE69A40-BCF5-48E3-A5D1-0B44FC7788A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE69A40-BCF5-48E3-A5D1-0B44FC7788A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE69A40-BCF5-48E3-A5D1-0B44FC7788A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE69A40-BCF5-48E3-A5D1-0B44FC7788A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F06C55C-059D-4D26-9FAA-1352E3AB89AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F06C55C-059D-4D26-9FAA-1352E3AB89AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F06C55C-059D-4D26-9FAA-1352E3AB89AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F06C55C-059D-4D26-9FAA-1352E3AB89AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D272A91-C191-445B-A56E-0EE931E7EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D272A91-C191-445B-A56E-0EE931E7EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D272A91-C191-445B-A56E-0EE931E7EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D272A91-C191-445B-A56E-0EE931E7EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB4FBD5-D657-4847-B2B1-FB2A01400A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB4FBD5-D657-4847-B2B1-FB2A01400A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB4FBD5-D657-4847-B2B1-FB2A01400A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB4FBD5-D657-4847-B2B1-FB2A01400A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B349B7-ED63-47F4-B81D-9B98B75A350D}.Debug|Any CPU.ActiveCfg = Debug
+		{10B349B7-ED63-47F4-B81D-9B98B75A350D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
